@@ -35,8 +35,7 @@ do
   for is_debug in "true" "false"
   do
     # generate ninja files
-    gn gen "$OUTPUT_DIR" --root="src" \
-      --args="is_debug=${is_debug} target_os=\"mac\" target_cpu=\"${target_cpu}\" rtc_include_tests=false rtc_build_examples=false rtc_use_h264=false symbol_level=0 enable_iterator_debugging=false is_component_build=false use_rtti=true rtc_use_x11=false libcxx_abi_unstable=false"
+    gn gen "$OUTPUT_DIR" --root="src" --args='is_debug=${is_debug} target_os=\"mac\" target_cpu=\"${target_cpu}\" rtc_include_tests=false rtc_build_examples=false rtc_use_h264=false rtc_include_builtin_audio_codecs=true symbol_level=0 enable_iterator_debugging=false is_component_build=false use_rtti=true rtc_use_x11=false libcxx_abi_unstable=false'
 
     # build static library
     ninja -C "$OUTPUT_DIR" webrtc

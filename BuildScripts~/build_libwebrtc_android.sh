@@ -33,7 +33,7 @@ do
   do
     # generate ninja files
     gn gen "$OUTPUT_DIR" --root="src" \
-      --args="is_debug=${is_debug} target_os=\"android\" target_cpu=\"${target_cpu}\" rtc_use_h264=false rtc_include_tests=false rtc_build_examples=false"
+      --args="is_debug=${is_debug} target_os=\"android\" target_cpu=\"${target_cpu}\" rtc_use_h264=false rtc_include_builtin_audio_codecs=true rtc_include_tests=false rtc_build_examples=false"
 
 
     # build static library

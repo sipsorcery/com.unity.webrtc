@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9975A15-22D2-3C43-8DEF-4326C6CE4FB4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>webrtc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\github\sipsorcery_com.unity.webrtc\Runtime\Plugins\x86_64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">webrtc.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">webrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\github\sipsorcery_com.unity.webrtc\Runtime\Plugins\x86_64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">webrtc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">webrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\build64-custom\WebRTCPlugin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">webrtc.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">webrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\build64-custom\WebRTCPlugin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">webrtc.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">webrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -g3 -O0</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_ITERATOR_DEBUG_LEVEL=0;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR="Debug";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=0;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR=\"Debug\";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>../lib/x64/webrtcd.lib;C:\VulkanSDK\1.1.121.2\Lib\vulkan-1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cuda.lib;NvCodec\Debug\NvCodec.lib;..\NvCodec\lib\x64\nvcuvid.lib;..\NvCodec\lib\x64\nvencodeapi.lib;d3d11.lib;winmm.lib;Secur32.lib;Msdmo.lib;Dmoguids.lib;wmcodecdspuuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>nvcuda.dll;vulkan-1.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/Debug/webrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/github/sipsorcery_com.unity.webrtc/Runtime/Plugins/x86_64/webrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR="Release";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR=\"Release\";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>../lib/x64/webrtc.lib;C:\VulkanSDK\1.1.121.2\Lib\vulkan-1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cuda.lib;NvCodec\Release\NvCodec.lib;..\NvCodec\lib\x64\nvcuvid.lib;..\NvCodec\lib\x64\nvencodeapi.lib;d3d11.lib;winmm.lib;Secur32.lib;Msdmo.lib;Dmoguids.lib;wmcodecdspuuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>nvcuda.dll;vulkan-1.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/Release/webrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/github/sipsorcery_com.unity.webrtc/Runtime/Plugins/x86_64/webrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR="MinSizeRel";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>../lib/x64/webrtc.lib;C:\VulkanSDK\1.1.121.2\Lib\vulkan-1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cuda.lib;NvCodec\MinSizeRel\NvCodec.lib;..\NvCodec\lib\x64\nvcuvid.lib;..\NvCodec\lib\x64\nvencodeapi.lib;d3d11.lib;winmm.lib;Secur32.lib;Msdmo.lib;Dmoguids.lib;wmcodecdspuuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>nvcuda.dll;vulkan-1.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/MinSizeRel/webrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/MinSizeRel/webrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WEBRTC_WIN;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";webrtc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\VulkanSDK\1.1.121.2\Include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\.;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\unity\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\abseil-cpp;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\source\include;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\jsoncpp\generated;C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\webrtc\include\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>../lib/x64/webrtc.lib;C:\VulkanSDK\1.1.121.2\Lib\vulkan-1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cuda.lib;NvCodec\RelWithDebInfo\NvCodec.lib;..\NvCodec\lib\x64\nvcuvid.lib;..\NvCodec\lib\x64\nvencodeapi.lib;d3d11.lib;winmm.lib;Secur32.lib;Msdmo.lib;Dmoguids.lib;wmcodecdspuuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>nvcuda.dll;vulkan-1.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/RelWithDebInfo/webrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/github/sipsorcery_com.unity.webrtc/Plugin~/build64-custom/WebRTCPlugin/RelWithDebInfo/webrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\.editorconfig">
+    </None>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\EncoderFactory.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\EncoderFactory.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\IEncoder.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Context.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Context.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DataChannelObject.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DataChannelObject.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyAudioDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyAudioDevice.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyVideoEncoder.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyVideoEncoder.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDevice.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDeviceType.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsUtility.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsUtility.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\IGraphicsDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\IGraphicsDevice.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\ITexture2D.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\ITexture2D.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Logger.cpp" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\MediaStreamObserver.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\MediaStreamObserver.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionObject.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionObject.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionStatsCollectorCallback.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionStatsCollectorCallback.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PlatformBase.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\SetSessionDescriptionObserver.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\SetSessionDescriptionObserver.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityRenderEvent.cpp" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoDecoderFactory.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoDecoderFactory.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoEncoderFactory.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoEncoderFactory.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoRenderer.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoRenderer.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoTrackSource.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoTrackSource.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCConstants.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCMacros.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCPlugin.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCPlugin.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\pch.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\targetver.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoder.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoder.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderCuda.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderCuda.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D11.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D11.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D12.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D12.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\SoftwareCodec\SoftwareEncoder.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\SoftwareCodec\SoftwareEncoder.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11GraphicsDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11GraphicsDevice.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11Texture2D.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11Texture2D.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Constants.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12GraphicsDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12GraphicsDevice.h" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12ResourceFootprint.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Texture2D.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Texture2D.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaContext.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaContext.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaImage.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaImage.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\UnityVulkanInitCallback.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\UnityVulkanInitCallback.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanGraphicsDevice.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanGraphicsDevice.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanTexture2D.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanTexture2D.h" />
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanUtility.cpp" />
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NvCodec.vcxproj">
+      <Project>{53e8535c-6710-3260-bbd8-a9a8c9c058b6}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

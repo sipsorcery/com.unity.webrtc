@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvDecoder\NvDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvEncoder\NvEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvEncoder\NvEncoderCuda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvDecoder\NvDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvEncoder\NvEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\NvCodec\NvEncoder\NvEncoderCuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\ColorSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\FFmpegDemuxer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\FFmpegStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\NvCodecUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\NvEncoderCLIOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\BitDepth.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\ColorSpace.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\Resize.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\NvCodec\Utils\crc.cu">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2FDF8997-5744-3E7B-BBC1-5468FFC92CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5786086A-0929-32CD-B725-5A225C830DAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

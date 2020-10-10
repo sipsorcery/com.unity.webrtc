@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\EncoderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DataChannelObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyAudioDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyVideoEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\IGraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\ITexture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\MediaStreamObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionStatsCollectorCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\SetSessionDescriptionObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityRenderEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoDecoderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoEncoderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoTrackSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderCuda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\SoftwareCodec\SoftwareEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11GraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12GraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\UnityVulkanInitCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanGraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanTexture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\EncoderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\IEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DataChannelObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyAudioDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\DummyVideoEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsDeviceType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\GraphicsUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\IGraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\ITexture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\MediaStreamObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PeerConnectionStatsCollectorCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\PlatformBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\SetSessionDescriptionObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoDecoderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoEncoderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\UnityVideoTrackSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\WebRTCPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderCuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\NvCodec\NvEncoderD3D12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\Codec\SoftwareCodec\SoftwareEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11GraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D11\D3D11Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12GraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12ResourceFootprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\D3D12\D3D12Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\Cuda\CudaImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\UnityVulkanInitCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanGraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanTexture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\github\sipsorcery_com.unity.webrtc\Plugin~\WebRTCPlugin\GraphicsDevice\Vulkan\VulkanUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\github\sipsorcery_com.unity.webrtc\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2FDF8997-5744-3E7B-BBC1-5468FFC92CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5786086A-0929-32CD-B725-5A225C830DAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -368,4 +368,8 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <Target Name="AfterBuild">
+     <Copy SourceFiles="$(OutDir)\webrtc.dll" DestinationFolder="C:\Dev\unity\UnityVideoFlipShader\Packages\com.unity.webrtc\Runtime\Plugins\x86_64" ContinueOnError="true" />
+	 <Copy SourceFiles="$(OutDir)\webrtc.pdb" DestinationFolder="C:\Dev\unity\UnityVideoFlipShader\Packages\com.unity.webrtc\Runtime\Plugins\x86_64" ContinueOnError="true" />
+</Target>
 </Project>
